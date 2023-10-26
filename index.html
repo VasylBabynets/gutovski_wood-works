@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<title>Gutovsiy</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20230509211347" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap&_v=20230509211347" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230509211347">
+	<!-- <link rel="shortcut icon" href="../favicon.png"> -->
+	<!-- <link rel="icon" type="image/png" href="https://example.com/favicon.png"/> -->
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div id="home" class="header__wrapper">
+			<header class="header">
+				<div class="header__container">
+					<button class=' header__btn-tablet Btn'>
+						<a href="tel:+380955573442" type="phone">+38 095 557 34 42</a>
+					</button>
+					<div class="header__main">
+						<a data-goto="#home" href="#" class="header__logo"><img src="img/gut-header-logo.svg" alt="main-logo"></a>
+					</div>
+					<div class="header__actions">
+						<div class="header__menu menu">
+							<div class="header__burger">
+								<!-- <div class="header__burger-title-2">ЗАКРИТИ</div> -->
+								<div class="header__burger-title">МЕНЮ</div>
+								<button type="button" class="header__icon-menu icon-menu">
+									<span class="burger-span"></span>
+								</button>
+							</div>
+							<nav class="menu__body">
+								<button class=' header__btn-mobile '>
+									<a href="tel:+380955573442" type="phone">+38 095 557 34 42</a>
+								</button>
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" data-goto-header="50px" data-goto="#stock" id="li-1" class="menu__link">В НАЯВНОСТІ</a></li>
+									<li class="menu__item"><a href="#" data-goto-header="-90px" data-goto="#advantages" id="li-2" class="menu__link">ПЕРЕВАГИ</a></li>
+									<li class="menu__item"><a href="#" data-goto-header="-50px" data-goto="#steps" id="li-3" class="menu__link">ЕТАПИ РОБОТИ</a></li>
+									<li class="menu__item"><a href="#" data-goto-header="-100px" data-goto="#feedback" id="li-4" class="menu__link">ВІДГУКИ</a></li>
+									<li class="menu__item"><a href="#" data-goto="#footer" id="li-5" class="menu__link">КОНТАКТИ</a></li>
+								</ul>
+							</nav>
+						</div>
+						<button class='header__btn Btn'>
+							<a href="tel:+380955573442" type="phone">+38 095 557 34 42</a>
+						</button>
+					</div>
+				</div>
+			</header>
+		</div>
+		<main class="page">
+			<div class="basic">
+				<!-- Оболочка слайдера -->
+				<div class="basic__slider-desctop swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="basic__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-cli.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-cli-2.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-cli-3.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-cli-4.png" alt="">
+						</div>
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<button type="button" class="basic-prev "><img src="img/arr-prev.svg" alt=""></button>
+					<button type="button" class="basic-next "><img src="img/arr-next.svg" alt=""></button>
+					<!-- Если нужен скролбар -->
+					<!-- <div class="swiper-scrollbar"></div> -->
+				</div>
+
+				<div class="basic__slider-tablet swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="basic__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<!-- tablet -->
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide slide-tablet">
+							<img src="img/main-bg-tablet-1.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide slide-tablet">
+							<img src="img/main-bg-tablet-2.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide slide-tablet">
+							<img src="img/main-bg-tablet-3.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide slide-tablet">
+							<img src="img/main-bg-tablet-4.png" alt="">
+						</div>
+
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<div class="arr-nav">
+						<button type="button" class="basic-prev "><img src="img/arr-prev.svg" alt=""></button>
+						<button type="button" class="basic-next "><img src="img/arr-next.svg" alt=""></button>
+					</div>
+					<!-- Если нужен скролбар -->
+					<!-- <div class="swiper-scrollbar"></div> -->
+				</div>
+
+				<div class="basic__slider-mobile swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="basic__wrapper swiper-wrapper">
+						<!-- mobile -->
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-mobile-1.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-mobile-2.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-mobile-3.png" alt="">
+						</div>
+						<!-- Слайд -->
+						<div class="basic__slide swiper-slide">
+							<img src="img/main-bg-mobile-4.png" alt="">
+						</div>
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+					<div class="arr-nav">
+						<button type="button" class="basic-prev "><img src="img/arr-prev.svg" alt=""></button>
+						<button type="button" class="basic-next "><img src="img/arr-next.svg" alt=""></button>
+					</div>
+					<!-- Если нужен скролбар -->
+					<!-- <div class="swiper-scrollbar"></div> -->
+				</div>
+
+				<div class="basic__slide-text text-slide">
+					<div class="text-slide__title">Інтер’єрні рішення для вашого простору</div>
+					<div class="text-slide__subtitle">Авторські вироби з дерева та епоксидної смоли, <br> що зроблять ваш інтер'єр унікальним: столи, сходи, стінові панелі, годинники, тераси, підлогове покриття.</div>
+					<a class="basic__btn button" data-goto-top="150px" data-goto=".cta-1">Замовити консультацію <img class="arr-white" src="img/button-arrow.svg" alt="btn-arr"> <img class="arr-black" src="img/button-arrow-black.svg" alt="btn-arr-black"> </a>
+				</div>
+
+			</div>
+
+
+
+			<div class="varieties">
+				<div class="varieties__wrapper-1">
+					<div class="varieties__item">
+						<img src="img/var-item-1.png" alt="">
+					</div>
+					<div class="varieties__item var-text ">
+						<div class="varieties__item-title ">столи</div>
+						<div class="varieties__item-text">Виготовлені з європейського горіха із збереженням дикого краю, а тріщини та раковини залиті епоксидною смолою, що назавжди збереже ті форми дерева, що створила
+							сама природа.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-3.png" alt="">
+					</div>
+					<div class="varieties__item var-text desc-padding">
+						<div class="varieties__item-title">Сходи</div>
+						<div class="varieties__item-text">В сучасному світі сходи вже далеко не просто елемент для пересування на другий поверх, це частина дизайнерського інтерʼєру, які привертають увагу
+							та є декором вашої оселі.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-5.png" alt="">
+					</div>
+					<div class="varieties__item var-text ">
+						<div class="varieties__item-title ">епоксидна смола</div>
+						<div class="varieties__item-text">Унікальний матеріал, який у поєднанні з масивом дерева дозволяє створювати дивовижно гарні, міцні та практичні стільниці, столи та робочі поверхні.Епоксидна смола перевірена та відповідає стандартам якості.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-7.png" alt="">
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">тераси</div>
+						<div class="varieties__item-text">Наявність тераси в будинку дозволяє: розширити «корисну площу» будинку, створити додаткову зону відпочинку, раціонально облаштувати внутрішній дворик, доповнити зовнішню естетику будинку.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-9.png" alt="">
+					</div>
+					<div class="varieties__item var-text desc-padding">
+						<div class="varieties__item-title ">фрезерування</div>
+						<div class="varieties__item-text">Надаємо послуги фрезерування МДФ фасадів та елементів меблів на ЧПУ верстаті згідно креслень.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-11.png" alt="">
+					</div>
+					<div class="varieties__item var-text ">
+						<div class="varieties__item-title ">нестандартні</div>
+						<div class="varieties__item-text">Виготовляємо вироби з нестандартними параметрами. Підходимо до справи креативно.  Працюємо за індивідуальним проектом.
+						</div>
+					</div>
+				</div>
+
+				<div class="varieties__wrapper-2">
+					<div class="varieties__item">
+						<img src="img/var-item-1.png" alt="">
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">Сходи</div>
+						<div class="varieties__item-text">В сучасному світі сходи вже далеко не просто елемент для пересування на другий поверх, це частина дизайнерського інтерʼєру, які привертають увагу
+							та є декором вашої оселі.
+						</div>
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">столи</div>
+						<div class="varieties__item-text">Виготовлені з європейського горіха із збереженням дикого краю, а тріщини та раковини залиті епоксидною смолою, що назавжди збереже ті форми дерева, що створила
+							сама природа.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-5.png" alt="">
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-3.png" alt="">
+					</div>
+
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">епоксидна смола</div>
+						<div class="varieties__item-text">Унікальний матеріал, який у поєднанні з масивом дерева дозволяє створювати дивовижно гарні, міцні та практичні стільниці, столи та робочі поверхні.Епоксидна смола перевірена та відповідає стандартам якості.
+						</div>
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">фрезерування</div>
+						<div class="varieties__item-text">Надаємо послуги фрезерування МДФ фасадів та елементів меблів на ЧПУ верстаті згідно креслень.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-7.png" alt="">
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-11.png" alt="">
+					</div>
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">тераси</div>
+						<div class="varieties__item-text">Наявність тераси в будинку дозволяє: розширити «корисну площу» будинку, створити додаткову зону відпочинку, раціонально облаштувати внутрішній дворик, доповнити зовнішню естетику будинку.
+						</div>
+					</div>
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">нестандартні</div>
+						<div class="varieties__item-text">Виготовляємо вироби з нестандартними параметрами. Підходимо до справи креативно.  Працюємо за індивідуальним проектом.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-9.png" alt="">
+					</div>
+
+				</div>
+
+				<div class="varieties__wrapper-3">
+					<div class="varieties__item">
+						<img src="img/var-item-1.png" alt="">
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">Сходи</div>
+						<div class="varieties__item-text">В сучасному світі сходи вже далеко не просто елемент для пересування на другий поверх, це частина дизайнерського інтерʼєру, які привертають увагу
+							та є декором вашої оселі.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-5.png" alt="">
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">столи</div>
+						<div class="varieties__item-text">Виготовлені з європейського горіха із збереженням дикого краю, а тріщини та раковини залиті епоксидною смолою, що назавжди збереже ті форми дерева, що створила
+							сама природа.
+						</div>
+					</div>
+
+					<div class="varieties__item">
+						<img src="img/var-item-3.png" alt="">
+					</div>
+
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">епоксидна смола</div>
+						<div class="varieties__item-text">Унікальний матеріал, який у поєднанні з масивом дерева дозволяє створювати дивовижно гарні, міцні та практичні стільниці, столи та робочі поверхні.Епоксидна смола перевірена та відповідає стандартам якості.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-7.png" alt="">
+					</div>
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">фрезерування</div>
+						<div class="varieties__item-text">Надаємо послуги фрезерування МДФ фасадів та елементів меблів на ЧПУ верстаті згідно креслень.
+						</div>
+					</div>
+
+					<div class="varieties__item">
+						<img src="img/var-item-11.png" alt="">
+					</div>
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">тераси</div>
+						<div class="varieties__item-text">Наявність тераси в будинку дозволяє: розширити «корисну площу» будинку, створити додаткову зону відпочинку, раціонально облаштувати внутрішній дворик, доповнити зовнішню естетику будинку.
+						</div>
+					</div>
+					<div class="varieties__item">
+						<img src="img/var-item-9.png" alt="">
+					</div>
+
+					<div class="varieties__item var-text">
+						<div class="varieties__item-title">нестандартні</div>
+						<div class="varieties__item-text">Виготовляємо вироби з нестандартними параметрами. Підходимо до справи креативно.  Працюємо за індивідуальним проектом.
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div id="stock" data-watch="navigator" class="stock">
+				<div class="stock__container">
+					<div class="stock__wrapper">
+						<div class="stock__title">В НАЯВНОСТІ</div>
+						<!-- Оболочка слайдера -->
+						<div class="stock__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="stock__wrapper swiper-wrapper ">
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-1.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-2.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-3.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-4.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-1.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-2.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-3.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-4.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-1.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-2.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з масиву</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-3.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+
+								<!-- Слайд -->
+								<div class="stock__slide swiper-slide">
+									<div class="slide-wrap">
+										<div class="stock__slide-img">
+											<img src="img/stock-4.png" alt="">
+										</div>
+										<div class="stock__slide-title">Стіл з епоксидною смолою</div>
+										<div class="stock__slide-price">1200$</div>
+									</div>
+								</div>
+
+
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="stock-pagination" data-goto-header="-100px" id="cta-1" data-watch="navigator"></div>
+							<!-- <div class="swiper-counter"><span class="current">1</span> / <span class="total">0</span></div> -->
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="stock-prev stock-button-prev"><picture><source srcset="img/stock-arr-prev.webp" type="image/webp"><img src="img/stock-arr-prev.png" alt=""></picture></button>
+							<button type="button" class="stock-next stock-button-next"><picture><source srcset="img/stock-arr-next.webp" type="image/webp"><img src="img/stock-arr-next.png" alt=""></picture></button>
+							<!-- Если нужен скролбар -->
+							<!-- <div class="swiper-scrollbar"></div> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cta-1" id="cta-1">
+				<div class="cta-1__wrapper">
+					<div class="cta-1__title">Вироби можна придбати відразу без очікування виробництва</div>
+					<span></span>
+					<div class="cta-1__subtitle">Залиште свій номер і з Вами зв’яжеться продавець!</div>
+					<form data-validate data-required id="cta-telegram" class="cta-1__bot" action="">
+						<input id="cta-1-input" name="phone1" class="cta-1__input" name="phone" type="phone" placeholder="Номер телефону" required>
+						<button type="submit" data-popup-message="#popup" class='cta-1__btn'>отримати консультацію</button>
+					</form>
+				</div>
+			</div>
+
+
+			<div id="advantages" data-watch="navigator" class="advantages">
+				<div class="advantages__wrap-desc">
+					<div class="advantages__col-1">
+						<div class="advantages__title">ПЕРЕВАГИ</div>
+						<div class="col-1__item item-1">
+							<img src="img/adv-1-col-1.png" alt="">
+							<div class="col-1__item-title">власне Виробництво</div>
+							<div class="col-1__item-text">Виготовлення замовлень відбувається у власному виробничому цеху з професійним устаткуванням. Це дозволяє забезпечити високу якість виконання та неповторність кожного виробу. </div>
+						</div>
+						<div class="col-1__item item-2">
+							<img src="img/adv-2-col-1.png" alt="">
+							<div class="col-1__item-title">гарантія на вироби</div>
+							<div class="col-1__item-text">Наші вироби ми виготовляємо так, щоб вони служили вам довгі роки. На всю продукцію надаємо 1 рік гарантії. Однак натуральне дерево — це матеріал чутливий, тому за ним потрібен правильний догляд.</div>
+						</div>
+						<div class="col-1__item item-3">
+							<img src="img/adv-3-col-1.png" alt="">
+							<div class="col-1__item-title">Під ключ</div>
+							<div class="col-1__item-text">Беремо на себе абсолютно весь процес від моменту прийняття замовлення до здачі готового вироба. А також гарантуємо підтримку під час експлуатації. </div>
+						</div>
+					</div>
+					<div class="advantages__col-2">
+						<div class="col-2__item item-4">
+							<img src="img/adv-1-col-2.png" alt="">
+							<div class="col-2__item-title">монтаж</div>
+							<div class="col-2__item-text">Пропонуємо не тільки виготовлення виробів з дерева, але й монтаж «під ключ».
+								Зокрема для сходів ми виконуємо подвійний монтаж.
+								<br><br>
+								Що сюди входить? <br>
+								- "чорнова" підгонка нефарбованих сходів. Далі сходи розбираються,
+								шліфуються та фарбуються <br>
+								- фінішний монтаж сходів, коли завершені всі роботи та встановлені меблі.
+							</div>
+						</div>
+						<div class="col-2__item item-5">
+							<img src="img/adv-2-col-2.png" alt="">
+							<div class="col-2__item-title">проектування</div>
+							<div class="col-2__item-text">Працюємо з замовником згідно затвердженого проекту, а це означає, що  вже перед початком роботи клієнт отримує візуалізацію майбутнього виробу і всі розрахунки.</div>
+						</div>
+						<div class="col-2__item item-6">
+							<img src="img/adv-3-col-2.png" alt="">
+							<div class="col-2__item-title">Якість</div>
+							<div class="col-2__item-text">Наші вироби виготовлені виключно з натурального дерева. По-перше, це екологічно,
+								по-друге, довговічно, адже такі вироби надзвичайно міцні і надійні.</div>
+						</div>
+						<!-- <div class="adv-el"><img src="img/adv-el.svg" alt=""></div> -->
+					</div>
+				</div>
+
+				<div class="advantages__wrap-tabl">
+					<div class="advantages__col-1">
+						<div class="advantages__title">ПЕРЕВАГИ</div>
+						<div class="col-2__item item-4">
+							<picture><source srcset="img/adv-1-col-2.webp" type="image/webp"><img src="img/adv-1-col-2.png" alt=""></picture>
+							<div class="col-2__item-title">монтаж</div>
+							<div class="col-2__item-text">Пропонуємо не тільки виготовлення виробів з дерева, але й монтаж «під ключ».
+								Зокрема для сходів ми виконуємо подвійний монтаж.
+								<br><br>
+								Що сюди входить? <br>
+								- "чорнова" підгонка нефарбованих сходів. Далі сходи розбираються,
+								шліфуються та фарбуються <br>
+								- фінішний монтаж сходів, коли завершені всі роботи та встановлені меблі.
+							</div>
+						</div>
+						<div class="col-1__item item-1">
+							<picture><source srcset="img/adv-1-col-1.webp" type="image/webp"><img src="img/adv-1-col-1.png" alt=""></picture>
+							<div class="col-1__item-title">власне Виробництво</div>
+							<div class="col-1__item-text">Виготовлення замовлень відбувається у власному виробничому цеху з професійним устаткуванням. Це дозволяє забезпечити високу якість виконання та неповторність кожного виробу. </div>
+						</div>
+						<div class="col-2__item item-5">
+							<picture><source srcset="img/adv-2-col-2.webp" type="image/webp"><img src="img/adv-2-col-2.png" alt=""></picture>
+							<div class="col-2__item-title">проектування</div>
+							<div class="col-2__item-text">Працюємо з замовником згідно затвердженого проекту, а це означає, що  вже перед початком роботи клієнт отримує візуалізацію майбутнього виробу і всі розрахунки.</div>
+						</div>
+						<div class="col-1__item item-2">
+							<picture><source srcset="img/adv-2-col-1.webp" type="image/webp"><img src="img/adv-2-col-1.png" alt=""></picture>
+							<div class="col-1__item-title">гарантія на вироби</div>
+							<div class="col-1__item-text">Наші вироби ми виготовляємо так, щоб вони служили вам довгі роки. На всю продукцію надаємо 1 рік гарантії. Однак натуральне дерево — це матеріал чутливий, тому за ним потрібен правильний догляд.</div>
+						</div>
+						<div class="col-2__item item-6">
+							<picture><source srcset="img/adv-3-col-2.webp" type="image/webp"><img src="img/adv-3-col-2.png" alt=""></picture>
+							<div class="col-2__item-title">Якість</div>
+							<div class="col-2__item-text">Наші вироби виготовлені виключно з натурального дерева. По-перше, це екологічно,
+								по-друге, довговічно, адже такі вироби надзвичайно міцні і надійні.</div>
+						</div>
+						<div class="col-1__item item-3">
+							<picture><source srcset="img/adv-3-col-1.webp" type="image/webp"><img src="img/adv-3-col-1.png" alt=""></picture>
+							<div class="col-1__item-title">Під ключ</div>
+							<div class="col-1__item-text">Беремо на себе абсолютно весь процес від моменту прийняття замовлення до здачі готового вироба. А також гарантуємо підтримку під час експлуатації. </div>
+						</div>
+					</div>
+					<div class="advantages__col-2">
+						<!-- <div class="adv-el"><img src="img/adv-el.svg" alt=""></div> -->
+					</div>
+				</div>
+				<!-- Оболочка слайдера -->
+				<div class="adv-slider-title">ПЕРЕВАГИ</div>
+				<div class="adv__slider swiper">
+					<!-- Двигающееся часть слайдера -->
+					<div class="adv__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-1.webp" type="image/webp"><img src="img/adv-mob-1.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">монтаж</div>
+									<div class="slide-adv-text">Пропонуємо не тільки виготовлення виробів з дерева, але й монтаж «під ключ».
+										Зокрема для сходів ми виконуємо подвійний монтаж.
+										<br><br>
+										Що сюди входить? <br>
+										- "чорнова" підгонка нефарбованих сходів. Далі сходи розбираються,
+										шліфуються та фарбуються <br>
+										- фінішний монтаж сходів, коли завершені всі роботи та встановлені меблі.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-2.webp" type="image/webp"><img src="img/adv-mob-2.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">власне Виробництво</div>
+									<div class="slide-adv-text">Виготовлення замовлень відбувається у власному виробничому цеху з професійним устаткуванням. Це дозволяє забезпечити високу якість виконання та неповторність кожного виробу.
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-3.webp" type="image/webp"><img src="img/adv-mob-3.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">гарантія на вироби</div>
+									<div class="slide-adv-text">Наші вироби ми виготовляємо так, щоб вони служили вам довгі роки. На всю продукцію надаємо 1 рік гарантії. Однак натуральне дерево — це матеріал чутливий, тому за ним потрібен правильний догляд.</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-4.webp" type="image/webp"><img src="img/adv-mob-4.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">проектування</div>
+									<div class="slide-adv-text">Працюємо з замовником згідно затвердженого проекту, а це означає, що  вже перед початком роботи клієнт отримує візуалізацію майбутнього виробу і всі розрахунки.</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-5.webp" type="image/webp"><img src="img/adv-mob-5.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">Якість</div>
+									<div class="slide-adv-text">Наші вироби виготовлені виключно з натурального дерева. По-перше, це екологічно,
+										по-друге, довговічно, адже такі вироби надзвичайно міцні і надійні.</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Слайд -->
+						<div class="adv__slide swiper-slide">
+							<div class="slide-adv">
+								<picture><source srcset="img/adv-mob-6.webp" type="image/webp"><img src="img/adv-mob-6.png" alt=""></picture>
+								<div class="adv__slide-text-wrap">
+									<div class="slide-adv-title">Під ключ</div>
+									<div class="slide-adv-text">Беремо на себе абсолютно весь процес від моменту прийняття замовлення до здачі готового вироба. А також гарантуємо підтримку під час експлуатації. </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="arr-nav-adv">
+					<button type="button" class="adv-prev "><img src="img/arr-prev-black.svg" alt=""></button>
+					<button type="button" class="adv-next "><img src="img/arr-next-black.svg" alt=""></button>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="cta-2" id="cta-2">
+				<div class="cta-2__wrapper">
+					<div class="cta-2__title">Запрошуємо на виробництво, щоб побачити процес зсередини</div>
+					<span></span>
+					<div class="cta-2__subtitle">Залиште свій номер і ми з вами зв’яжемось!</div>
+					<form data-validate data-required id="cta-telegram2" class="cta-2__bot" action="">
+						<input id="cta-2-input" name="phone2" class="cta-2__input" name="phone" type="phone" placeholder="Номер телефону" required>
+						<button type="submit" data-popup-message="#popup" class='cta-2__btn'>завітати на виробництво</button>
+					</form>
+				</div>
+			</div>
+			<div class="team">
+				<div class="team__container">
+					<div class="team__wrapper">
+						<h1 class="team__title-tabl">НАША КОМАНДА</h1>
+						<div class="team__img-desc"><picture><source srcset="img/team.webp" type="image/webp"><img src="img/team.png" alt=""></picture></div>
+						<div class="team__img-tabl"><picture><source srcset="img/team-tablet.webp" type="image/webp"><img src="img/team-tablet.png" alt=""></picture></div>
+						<div class="team__img-mobile"><picture><source srcset="img/team-mobile.webp" type="image/webp"><img src="img/team-mobile.png" alt=""></picture></div>
+						<div class="team__descr">
+							<h1 class="team__title-desc">НАША КОМАНДА</h1>
+							<h3 class="team__subtitle">«Памʼятайте, що обираючи меблі з дерева, ви обираєте ексклюзивний виріб, адже структура
+								деревини є неповторною»</h3>
+							<div class="team__text">Команда GutovskiWoodWorks — молоді, амбіційні хлопці, майстри своєї справи,
+								з досвідом роботи в столярній сфері більше 13 років.
+								Знання, вміння та досвід дозволяють нам реалізувати будь-яку ідею та створити ідеальні вироби з дерева для затишку вашого простору.</div>
+							<div class="team__bot">
+								<div class="team__bot-item item-bot">
+									<div class="item-bot__title">Антон Гутовський</div>
+									<div class="item-bot__subtitle">Засновник</div>
+								</div>
+								<div class="team__bot-item item-bot">
+									<div class="item-bot__title">Світлана Гутовська</div>
+									<div class="item-bot__subtitle">Посада</div>
+								</div>
+								<div class="team__bot-item item-bot">
+									<div class="item-bot__title">Призвіще ім’я</div>
+									<div class="item-bot__subtitle">Посада</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div data-watch="navigator" id="steps" class="steps">
+				<div class="steps__container">
+					<div class="steps__title">ЯК МИ ПРАЦЮЄМО?</div>
+					<div class="steps__item-wrapper">
+						<div data-aos="zoom-out" data-aos-delay="300" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">1</div>
+								<div class="steps__item-title">залишаєте заявку</div>
+							</div>
+							<div class="steps__item-text">Для замовлення залишайте заявку на сайті <br> або в соцмережах (Facebook/Instagram)</div>
+						</div>
+						<div data-aos="zoom-out" data-aos-delay="600" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">2</div>
+								<div class="steps__item-title">ЗУСТРІЧ НА ОБ’єкті</div>
+							</div>
+							<div class="steps__item-text">Протягом 3-х днів з моменту отримання заявки виїжджаємо на локацію, робимо заміри
+								та ескізи</div>
+						</div>
+						<div data-aos="zoom-out" data-aos-delay="900" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">3</div>
+								<div class="steps__item-title">проект та розрахунок</div>
+							</div>
+							<div class="steps__item-text">Розробляємо детальний проект та кошторис. Розробка займає від 2-х тижнів до 1,5 місяця</div>
+						</div>
+						<div data-aos="zoom-out" data-aos-delay="1200" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">4</div>
+								<div class="steps__item-title">створення виробу</div>
+							</div>
+							<div class="steps__item-text">Процес та терміни виготовлення виробу залежать від складності роботи. Наприклад, сходи виготовляються 1,5 - 2 місяці.</div>
+						</div>
+						<div data-aos="zoom-out" data-aos-delay="1500" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">5</div>
+								<div class="steps__item-title">подвійний монтаж</div>
+							</div>
+							<div class="steps__item-text">Для надійності завжди робимо попередній
+								та основний монтаж</div>
+						</div>
+						<div data-aos="zoom-out" data-aos-delay="1800" data-aos-offset="0" class="steps__item">
+							<div class="steps__item-top">
+								<div class="steps__item-num">6</div>
+								<div class="steps__item-title">гарантія та догляд</div>
+							</div>
+							<div class="steps__item-text">Після завершення всіх робіт надаємо гарантію та рекомендації по догляду за виробом </div>
+						</div>
+					</div>
+
+					<!-- Оболочка слайдера -->
+					<div class="steps__slider swiper">
+						<!-- Двигающееся часть слайдера -->
+						<div class="steps__wrapper swiper-wrapper">
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">1</div>
+										<div class="steps__item-title">залишаєте <br> заявку</div>
+									</div>
+									<div class="steps__item-text">Для замовлення залишайте заявку на сайті або в соцмережах (Facebook/Instagram)</div>
+								</div>
+							</div>
+
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">2</div>
+										<div class="steps__item-title">ЗУСТРІЧ НА <br> ОБ’єкті</div>
+									</div>
+									<div class="steps__item-text">Протягом 3-х днів з моменту отримання заявки виїжджаємо на локацію, робимо заміри
+										та ескізи</div>
+								</div>
+							</div>
+
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">3</div>
+										<div class="steps__item-title">проект та <br> розрахунок</div>
+									</div>
+									<div class="steps__item-text">Розробляємо детальний проект та кошторис. Розробка займає від 2-х тижнів до 1,5 місяця</div>
+								</div>
+							</div>
+
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">4</div>
+										<div class="steps__item-title">створення <br> виробу</div>
+									</div>
+									<div class="steps__item-text">Процес та терміни виготовлення виробу залежать від складності роботи. Наприклад, сходи виготовляються 1,5 - 2 місяці.</div>
+								</div>
+							</div>
+
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">5</div>
+										<div class="steps__item-title">подвійний <br> монтаж</div>
+									</div>
+									<div class="steps__item-text">Для надійності завжди робимо попередній
+										та основний монтаж</div>
+								</div>
+							</div>
+
+							<!-- Слайд -->
+							<div class="steps__slide swiper-slide">
+								<div class="steps__item">
+									<div class="steps__item-top">
+										<div class="steps__item-num">6</div>
+										<div class="steps__item-title">гарантія та <br> догляд</div>
+									</div>
+									<div class="steps__item-text">Після завершення всіх робіт надаємо гарантію та рекомендації по догляду за виробом </div>
+								</div>
+							</div>
+						</div>
+						<!-- Если нужна пагинация -->
+						<!-- <div class="swiper-pagination"></div> -->
+						<!-- Если нужна навигация (влево/вправо) -->
+						<!-- Если нужен скролбар -->
+						<!-- <div class="swiper-scrollbar"></div> -->
+					</div>
+					<div class="arr-nav-steps">
+						<button type="button" class="steps-prev "><img src="img/arr-prev-black.svg" alt=""></button>
+						<button type="button" class="steps-next "><img src="img/arr-next-black.svg" alt=""></button>
+					</div>
+				</div>
+			</div>
+			<div id="feedback" data-watch="navigator" class="feedback">
+				<div class="feedback__title">ВАШІ ВІДГУКИ</div>
+				<div class="feedback__container">
+					<div class="feedback__wrapper">
+
+						<!-- Оболочка слайдера -->
+						<div class="feedback__slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="feedback__wrapper swiper-wrapper">
+
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-1.webp" type="image/webp"><img src="img/feedback-sl-1.png" alt=""></picture>
+										<div class="feedback__slide-title">Хома Олександр, 27 років</div>
+										<div class="feedback__slide-text">Якщо шукаєте щось унікальне та елегантне для вашої їдальні, то стіл від  GutovskiWoodWorks точно те, що потрібно. Якість матеріалу дуже висока, дерево міцне та надійне, а епоксидна смола додає столу красу та глибину. </div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-2.webp" type="image/webp"><img src="img/feedback-sl-2.png" alt=""></picture>
+										<div class="feedback__slide-title">Мороз Віктор, 49 років</div>
+										<div class="feedback__slide-text"> Замовлення було виконано вчасно, а майстри, які встановлювали сходи, були дуже професійні. Ми радимо цю компанію всім, хто шукає надійні та якісні рішення для свого будинку.</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-3.webp" type="image/webp"><img src="img/feedback-sl-3.png" alt=""></picture>
+										<div class="feedback__slide-title">Світлана, 30 років</div>
+										<div class="feedback__slide-text">Наша нова тераса дуже стильна та комфортна. Компанія GutovskiWoodWorks виконала все дуже професійно та якісно. Вони допомогли мені вибрати матеріали та дизайн, який підходив би нашому будинку, і результат перевершив мої очікування.</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-1.webp" type="image/webp"><img src="img/feedback-sl-1.png" alt=""></picture>
+										<div class="feedback__slide-title">Хома Олександр, 27 років</div>
+										<div class="feedback__slide-text">Якщо шукаєте щось унікальне та елегантне для вашої їдальні, то стіл від  GutovskiWoodWorks точно те, що потрібно. Якість матеріалу дуже висока, дерево міцне та надійне, а епоксидна смола додає столу красу та глибину. </div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-2.webp" type="image/webp"><img src="img/feedback-sl-2.png" alt=""></picture>
+										<div class="feedback__slide-title">Мороз Віктор, 49 років</div>
+										<div class="feedback__slide-text"> Замовлення було виконано вчасно, а майстри, які встановлювали сходи, були дуже професійні. Ми радимо цю компанію всім, хто шукає надійні та якісні рішення для свого будинку.</div>
+									</div>
+								</div>
+								<!-- Слайд -->
+								<div class="feedback__slide swiper-slide">
+									<div class="feedback__slide-wrap">
+										<picture><source srcset="img/feedback-sl-3.webp" type="image/webp"><img src="img/feedback-sl-3.png" alt=""></picture>
+										<div class="feedback__slide-title">Світлана, 30 років</div>
+										<div class="feedback__slide-text">Наша нова тераса дуже стильна та комфортна. Компанія GutovskiWoodWorks виконала все дуже професійно та якісно. Вони допомогли мені вибрати матеріали та дизайн, який підходив би нашому будинку, і результат перевершив мої очікування.</div>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<div class="feedback-pagination"></div>
+							<!-- Если нужна навигация (влево/вправо) -->
+							<button type="button" class="feedback-prev "><picture><source srcset="img/stock-arr-prev.webp" type="image/webp"><img src="img/stock-arr-prev.png" alt=""></picture></button>
+							<button type="button" class="feedback-next "><picture><source srcset="img/stock-arr-next.webp" type="image/webp"><img src="img/stock-arr-next.png" alt=""></picture></button>
+							<!-- Если нужен скролбар -->
+						</div>
+
+						<!-- Оболочка слайдера -->
+						<div class="feedback-mobile-slider swiper">
+							<!-- Двигающееся часть слайдера -->
+							<div class="feedback-mobile-wrapper swiper-wrapper">
+
+								<!-- Слайд -->
+								<div class="feedback-mobile-slide swiper-slide">
+									<div class="feedback__slide-wrap-mob">
+										<picture><source srcset="img/feedback-sl-1-mob.webp" type="image/webp"><img src="img/feedback-sl-1-mob.png" alt=""></picture>
+										<div class="feedback__slide-title">Хома Олександр, 27 років</div>
+										<div class="feedback__slide-text">Якщо шукаєте щось унікальне та елегантне для вашої їдальні, то стіл від  GutovskiWoodWorks точно те, що потрібно. Якість матеріалу дуже висока, дерево міцне та надійне, а епоксидна смола додає столу красу та глибину. </div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="feedback-mobile-slide swiper-slide">
+									<div class="feedback__slide-wrap-mob">
+										<picture><source srcset="img/feedback-sl-2-mob.webp" type="image/webp"><img src="img/feedback-sl-2-mob.png" alt=""></picture>
+										<div class="feedback__slide-title">Мороз Віктор, 49 років</div>
+										<div class="feedback__slide-text"> Замовлення було виконано вчасно, а майстри, які встановлювали сходи, були дуже професійні. Ми радимо цю компанію всім, хто шукає надійні та якісні рішення для свого будинку.</div>
+									</div>
+								</div>
+
+								<!-- Слайд -->
+								<div class="feedback-mobile-slide swiper-slide">
+									<div class="feedback__slide-wrap-mob">
+										<picture><source srcset="img/feedback-sl-3-mob.webp" type="image/webp"><img src="img/feedback-sl-3-mob.png" alt=""></picture>
+										<div class="feedback__slide-title">Світлана, 30 років</div>
+										<div class="feedback__slide-text">Наша нова тераса дуже стильна та комфортна. Компанія GutovskiWoodWorks виконала все дуже професійно та якісно. Вони допомогли мені вибрати матеріали та дизайн, який підходив би нашому будинку, і результат перевершив мої очікування.</div>
+									</div>
+								</div>
+							</div>
+							<!-- Если нужна пагинация -->
+							<!-- <div class="swiper-pagination"></div> -->
+							<!-- Если нужна навигация (влево/вправо) -->
+
+							<!-- Если нужен скролбар -->
+							<!-- <div class="swiper-scrollbar"></div> -->
+						</div>
+						<div class="arr-nav-feedback">
+							<button type="button" class="feedback-mobile-prev "><img src="img/arr-prev-black.svg" alt=""></button>
+							<button type="button" class="feedback-mobile-next "><img src="img/arr-next-black.svg" alt=""></button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="cta-3" id="cta-3">
+				<div class="cta-3__wrapper">
+					<div class="cta-3__title">Обирайте ексклюзивні вироби для свого простору</div>
+					<span></span>
+					<div class="cta-3__subtitle">Залиште номер і отримайте безкоштовну консультацію, де ми відповімо на всі ваші запитання.</div>
+					<form data-validate data-required id="cta-telegram3" class="cta-3__bot" action="">
+						<input id="cta-3-input" name="phone3" class="cta-3__input" type="phone" required placeholder="Номер телефону">
+						<button type="submit" data-popup-message="#popup" class='cta-3__btn'>отримати консультацію</button>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer id="footer" class="footer">
+			<div class="wrap-desc">
+				<div class="footer__container">
+					<div class="footer__top">
+						<div data-goto="#home" class="footer__top-logo">
+							<a href=""><img src="img/gut-foot-logo.svg" alt=""></a>
+						</div>
+
+						<div class="nav-top__navig">
+							<div class="nav-top__navig-title">НАВІГАЦІЯ</div>
+							<a href="" data-goto-header="50px" data-goto="#stock" class="nav-top__navig-link">В НАЯВНОСТІ</a>
+							<a href="" data-goto-header="-90px" data-goto="#advantages" class="nav-top__navig-link">ПЕРЕВАГИ</a>
+							<a href="" data-goto-header="-50px" data-goto="#steps" class="nav-top__navig-link">ЕТАПИ РОБОТИ</a>
+							<a href="" data-goto-header="-100px" data-goto="#feedback" class="nav-top__navig-link">Відгуки</a>
+							<a href="" data-goto="#footer" class="nav-top__navig-link">Контакти</a>
+						</div>
+						<div class="nav-top__social">
+							<div class="nav-top__social-title">соцмережі</div>
+							<a href="https://instagram.com/gutovskiwoodworks?igshid=YmMyMTA2M2Y=" class="nav-top__social-link">Instagram</a>
+							<a href="https://www.facebook.com/GutovskiWoodWorks" class="nav-top__social-link">Facebook</a>
+						</div>
+						<div class="nav-top__contacts">
+							<div class="nav-top__contacts-title">контакти</div>
+							<a href="" class="nav-top__contacts-link">+38 (050) 500 55 91</a>
+							<a href="" class="nav-top__contacts-link">gutovski@gmail.com</a>
+							<a href="" class="nav-top__contacts-link street">м. Ужгород, вулиця <br> якась там</a>
+						</div>
+
+					</div>
+				</div>
+				<span class="footer__span"></span>
+				<a href="#"><button class="footer__btn button"> Знайти нас на мапі <img class="arr-white" src="img/button-arrow.svg" alt="btn-arr"> <img class="arr-black" src="img/button-arrow-black.svg" alt="btn-arr-black"></button></a>
+				<a data-goto="#cta-3" data-goto-top="150px" href="#"><button class="footer__bot-btn button"> замовити консультацію <img class="arr-white" src="img/button-arrow.svg" alt="btn-arr"> <img class="arr-black" src="img/button-arrow-black.svg" alt="btn-arr-black"></button></a>
+				<div class="footer__container">
+					<div class="footer__bot">
+						<div class="footer__bot-wrap">
+							<div class="footer__bot-rights">© All Rights Reserved</div>
+							<div class="footer__bot-policy"> <a href="../privacy_policy.html"> Privacy Policy</a></div>
+						</div>
+						<div class="footer__bot-created">Created by <a href="https://promarketing.weblium.site/">PRO Marketing#</a> </div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap-tablet">
+				<div class="footer__container-tabl">
+					<div class="footer__col-1">
+						<div class="nav-top__contacts-tabl">
+							<div class="nav-top__contacts-title-tabl">контакти</div>
+							<a href="" class="nav-top__contacts-link-tabl">+38 (050) 500 55 91</a>
+							<a href="" class="nav-top__contacts-link-tabl">gutovski@gmail.com</a>
+							<a href="" class="nav-top__contacts-link-tabl">м. Ужгород, вулиця якась там</a>
+						</div>
+						<a href="#"><button class="footer__btn-tabl button"> <img class="arr-white" src="img/footer-arr-left.svg" alt="btn-arr"> <img class="arr-black" src="img/footer-arr-left-black.svg" alt="btn-arr-black">Знайти нас на мапі</button></a>
+					</div>
+
+					<div class="footer__col-2">
+						<div class="footer__col-2-wrap">
+							<div class="nav-top__navig-tabl">
+								<div class="nav-top__navig-title-tabl">НАВІГАЦІЯ</div>
+								<a href="" data-goto-header="50px" data-goto="#stock" class="nav-top__navig-link-tabl">В НАЯВНОСТІ</a>
+								<a href="" data-goto-header="-90px" data-goto="#advantages" class="nav-top__navig-link-tabl">ПЕРЕВАГИ</a>
+								<a href="" data-goto-header="-50px" data-goto="#steps" class="nav-top__navig-link-tabl">ЕТАПИ РОБОТИ</a>
+								<a href="" data-goto-header="-100px" data-goto="#feedback" class="nav-top__navig-link-tabl">Відгуки</a>
+								<a href="" data-goto="#footer" class="nav-top__navig-link-tabl">Контакти</a>
+							</div>
+							<div data-goto="#home" class="footer__top-logo-tabl">
+								<a href=""><img src="img/gut-foot-logo.svg" alt=""></a>
+							</div>
+						</div>
+						<div class="nav-top__social-tabl">
+							<div class="nav-top__social-title-tabl">соцмережі</div>
+							<a href="https://instagram.com/gutovskiwoodworks?igshid=YmMyMTA2M2Y=" class="nav-top__social-link-tabl">Instagram</a>
+							<a href="https://www.facebook.com/GutovskiWoodWorks" class="nav-top__social-link-tabl">Facebook</a>
+						</div>
+					</div>
+				</div>
+				<span class="footer__span-tabl"></span>
+				<a data-goto="#cta-3" data-goto-top="350px" href="#"><button class="footer__bot-btn-tabl button"> замовити консультацію <img class="arr-white" src="img/button-arrow.svg" alt="btn-arr"> <img class="arr-black" src="img/button-arrow-black.svg" alt="btn-arr-black"></button></a>
+				<div class="footer__bot-tabl">
+					<div class="footer__bot-wrap-tabl">
+						<div class="footer__bot-rights-tabl">© All Rights Reserved</div>
+						<div class="footer__bot-policy-tabl"> <a href="../privacy_policy.html"> Privacy Policy</a></div>
+					</div>
+					<div class="footer__bot-created-tabl">Created by <a href="https://promarketing.weblium.site/">PRO Marketing#</a> </div>
+				</div>
+			</div>
+			<div class="wrap-mobile">
+				<div data-goto="#home" class="footer__top-logo-mobile">
+					<a href=""><img src="img/gut-foot-logo.svg" alt=""></a>
+				</div>
+				<div class="nav-top__contacts-title-mobile">контакти</div>
+				<div class="nav-top__contacts-mobile">
+					<div class="contacts-wrap-1">
+						<a href="" class="nav-top__contacts-link-mobile">+38 (050) 500 55 91</a>
+						<a href="" class="nav-top__contacts-link-mobile">gutovski@gmail.com</a>
+					</div>
+					<a href="" class="nav-top__contacts-link-mobile">м. Ужгород, вулиця <br> якась там</a>
+				</div>
+				<a href="#"><button class="footer__btn-mobile button"> <img class="arr-white" src="img/footer-arr-left.svg" alt="btn-arr"> <img class="arr-black" src="img/footer-arr-left-black.svg" alt="btn-arr-black"> Знайти нас на мапі </button></a>
+				<span class="footer__span-mobile-1"></span>
+				<div class="nav-menu-wrap">
+					<div class="nav-top__navig-mobile">
+						<div class="nav-top__navig-title-mobile">НАВІГАЦІЯ</div>
+						<a href="" data-goto-header="50px" data-goto="#stock" class="nav-top__navig-link-mobile">В НАЯВНОСТІ</a>
+						<a href="" data-goto-header="-90px" data-goto="#advantages" class="nav-top__navig-link-mobile">ПЕРЕВАГИ</a>
+						<a href="" data-goto-header="-50px" data-goto="#steps" class="nav-top__navig-link-mobile">ЕТАПИ РОБОТИ</a>
+						<a href="" data-goto-header="-100px" data-goto="#feedback" class="nav-top__navig-link-mobile">Відгуки</a>
+						<a href="" data-goto="#footer" class="nav-top__navig-link-mobile">Контакти</a>
+					</div>
+					<div class="nav-top__social-mobile">
+						<div class="nav-top__social-title-mobile">соцмережі</div>
+						<a href="https://instagram.com/gutovskiwoodworks?igshid=YmMyMTA2M2Y=" class="nav-top__social-link-mobile">Instagram</a>
+						<a href="https://www.facebook.com/GutovskiWoodWorks" class="nav-top__social-link-mobile">Facebook</a>
+					</div>
+				</div>
+				<span class="footer__span-mobile-2"></span>
+				<a class="footer__bot-btn-mobile-link" href="#" data-goto-header="50px" data-goto="#cta-3"><button class="footer__bot-btn-mobile button"> замовити консультацію <img class="arr-white" src="img/button-arrow.svg" alt="btn-arr"> <img class="arr-black" src="img/button-arrow-black.svg" alt="btn-arr-black"></button></a>
+				<div class="footer__bot-mobile">
+					<div class="footer__bot-wrap-mobile">
+						<div class="footer__bot-rights-mobile">© All Rights Reserved</div>
+						<div class="footer__bot-policy-mobile"> <a href="../privacy_policy.html"> Privacy Policy</a></div>
+					</div>
+					<div class="footer__bot-created-mobile">Created by <a href="https://promarketing.weblium.site/">PRO Marketing#</a> </div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><img src="img/close.svg" alt=""></button>
+				<div class="popup__text">
+					<div class="popup__title">Дякуємо!</div>
+					<span class="popup-span"></span>
+					<div class="popup__subtitle">Наш менеджер зв’яжеться з вами найближчим часом!</div>
+					<button data-close type="button" class=' Btn popup__btn'>Чудово!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20230509211347"></script>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js?_v=20230509211347" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+
+	</script>
+	<script src="js/app.min.js?_v=20230509211347"></script>
+
+</body>
+
+</html>
